@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TreexHD Blogs</title>
+  
+  <subtitle>TreexHD&#39;s Blog</subtitle>
+  <link href="https://blog.treexhd.me/atom.xml" rel="self"/>
+  
+  <link href="https://blog.treexhd.me/"/>
+  <updated>2021-08-11T12:55:36.375Z</updated>
+  <id>https://blog.treexhd.me/</id>
+  
+  <author>
+    <name>TreexHD</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.treexhd.me/2021/08/11/hello-world/"/>
+    <id>https://blog.treexhd.me/2021/08/11/hello-world/</id>
+    <published>2021-08-11T12:55:36.375Z</published>
+    <updated>2021-08-11T12:55:36.375Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>FirstPost</title>
+    <link href="https://blog.treexhd.me/2021/01/20/FirstPost/"/>
+    <id>https://blog.treexhd.me/2021/01/20/FirstPost/</id>
+    <published>2021-01-19T16:35:28.000Z</published>
+    <updated>2021-08-11T12:55:36.374Z</updated>
+    
+    <content type="html"><![CDATA[<p>oh ya!<br>終於第一次的脫離懶惰 開始用hexo寫文章啦?<br>也快過農曆新年了<br>主要是想記錄一些生活上碰到的<del>破事</del>(? 又或者是一些技術上的問題</p><p><img src="https://image.treexhd.me/i/2021/01/19/12360ot.jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;oh ya!&lt;br&gt;終於第一次的脫離懶惰 開始用hexo寫文章啦?&lt;br&gt;也快過農曆新年了&lt;br&gt;主要是想記錄一些生活上碰到的&lt;del&gt;破事&lt;/del&gt;(? 又或者是一些技術上的問題&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://image.treexhd.me/i/2</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
