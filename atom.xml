@@ -6,7 +6,7 @@
   <link href="https://blog.treexhd.me/atom.xml" rel="self"/>
   
   <link href="https://blog.treexhd.me/"/>
-  <updated>2021-08-11T12:55:36.375Z</updated>
+  <updated>2021-08-16T15:38:11.153Z</updated>
   <id>https://blog.treexhd.me/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RouterOS_HairpinNAT</title>
+    <link href="https://blog.treexhd.me/2021/08/16/RouterOS-HairpinNAT/"/>
+    <id>https://blog.treexhd.me/2021/08/16/RouterOS-HairpinNAT/</id>
+    <published>2021-08-16T15:12:41.000Z</published>
+    <updated>2021-08-16T15:38:11.153Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="RouterOS多撥情況下-可真難搞…"><a href="#RouterOS多撥情況下-可真難搞…" class="headerlink" title="RouterOS多撥情況下 可真難搞…."></a>RouterOS多撥情況下 可真難搞….</h2><p>朋友最近在家整理RouterOS環境,碰到了一點大問題</p><p>你在家連上WiFI後,<del>想打開你珍藏已久的4K@144的影片</del>,卻發現 沒辦法正常連上NAS..</p><p>但是打開4G後 卻可以正常連上NAS,但又因為速度太慢,而完全等轉圈圈</p><p>這就是一個 <del><strong>BIG PROBLEM</strong></del></p><p>所以來記錄一下 怎麼幫他解決的</p><h2 id="環境如下"><a href="#環境如下" class="headerlink" title="環境如下"></a>環境如下</h2><ol><li>Hinet 1G/600M</li><li>RouterOS一台</li><li>Synology NAS一台</li></ol><h2 id="復現問題"><a href="#復現問題" class="headerlink" title="復現問題"></a>復現問題</h2><p>因為是PPPOE多撥情況下</p><p>你在同一台ROS以PPPOE方式 獲得了A,B兩個公網IP</p><p>你用A公網IP 做WIFI上網 </p><p>你的NAS服務跑在B公網IP上</p><p>A 會沒辦法正常訪問 B </p><p>![image-20210816233802421](C:\Users\mini8\Documents\VS Code\treehd.github.io\public\images\image-20210816233802421.png)</p><p>於是你打開 tracert 打算追蹤他怎麼跑的 </p><p>這時 你會看到這麼個詭異現象</p><p>![image-20210816233128982](C:\Users\mini8\Documents\VS Code\treehd.github.io\public\images\image-20210816233128982.png)</p><p>我是在tracert自己嗎……</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;RouterOS多撥情況下-可真難搞…&quot;&gt;&lt;a href=&quot;#RouterOS多撥情況下-可真難搞…&quot; class=&quot;headerlink&quot; title=&quot;RouterOS多撥情況下 可真難搞….&quot;&gt;&lt;/a&gt;RouterOS多撥情況下 可真難搞….&lt;/h2&gt;&lt;p&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="RouterOS,HairpinNAT,NAT,LoopbackNAT" scheme="https://blog.treexhd.me/tags/RouterOS-HairpinNAT-NAT-LoopbackNAT/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

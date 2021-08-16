@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>FirstPost</title>
+    <url>/2021/01/20/FirstPost/</url>
+    <content><![CDATA[<p>oh ya!<br>終於第一次的脫離懶惰 開始用hexo寫文章啦?<br>也快過農曆新年了<br>主要是想記錄一些生活上碰到的<del>破事</del>(? 又或者是一些技術上的問題</p>
+<p><img src="https://image.treexhd.me/i/2021/01/19/12360ot.jpg"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/08/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>RouterOS_HairpinNAT</title>
+    <url>/2021/08/16/RouterOS-HairpinNAT/</url>
+    <content><![CDATA[<h2 id="RouterOS多撥情況下-可真難搞…"><a href="#RouterOS多撥情況下-可真難搞…" class="headerlink" title="RouterOS多撥情況下 可真難搞…."></a>RouterOS多撥情況下 可真難搞….</h2><p>朋友最近在家整理RouterOS環境,碰到了一點大問題</p>
+<p>你在家連上WiFI後,<del>想打開你珍藏已久的4K@144的影片</del>,卻發現 沒辦法正常連上NAS..</p>
+<p>但是打開4G後 卻可以正常連上NAS,但又因為速度太慢,而完全等轉圈圈</p>
+<p>這就是一個 <del><strong>BIG PROBLEM</strong></del></p>
+<p>所以來記錄一下 怎麼幫他解決的</p>
+<h2 id="環境如下"><a href="#環境如下" class="headerlink" title="環境如下"></a>環境如下</h2><ol>
+<li>Hinet 1G/600M</li>
+<li>RouterOS一台</li>
+<li>Synology NAS一台</li>
+</ol>
+<h2 id="復現問題"><a href="#復現問題" class="headerlink" title="復現問題"></a>復現問題</h2><p>因為是PPPOE多撥情況下</p>
+<p>你在同一台ROS以PPPOE方式 獲得了A,B兩個公網IP</p>
+<p>你用A公網IP 做WIFI上網 </p>
+<p>你的NAS服務跑在B公網IP上</p>
+<p>A 會沒辦法正常訪問 B </p>
+<p>![image-20210816233802421](C:\Users\mini8\Documents\VS Code\treehd.github.io\public\images\image-20210816233802421.png)</p>
+<p>於是你打開 tracert 打算追蹤他怎麼跑的 </p>
+<p>這時 你會看到這麼個詭異現象</p>
+<p>![image-20210816233128982](C:\Users\mini8\Documents\VS Code\treehd.github.io\public\images\image-20210816233128982.png)</p>
+<p>我是在tracert自己嗎……</p>
+]]></content>
+      <tags>
+        <tag>RouterOS,HairpinNAT,NAT,LoopbackNAT</tag>
+      </tags>
+  </entry>
+</search>
