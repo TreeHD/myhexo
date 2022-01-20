@@ -192,6 +192,10 @@
 <p>然後打開瀏覽器,將修改完成的網址貼上瀏覽器,即可正常授權</p>
 <p><img src="https://cdn.jsdelivr.net/gh/TreeHD/myhexo@image/20220120213613.png"><br>接下來將Your authorization token中的文字整串複製到<br><img src="https://cdn.jsdelivr.net/gh/TreeHD/myhexo@image/20220120213334.png"><br><img src="https://cdn.jsdelivr.net/gh/TreeHD/myhexo@image/20220120213205.png"><br>完成!</p>
 <p>接下來,記得重新登入一次Code-Server,確保所有東西正常運作(有時Copilot的接受條款不一定會跑出來,需要重新登入code-server即可)</p>
+<p>參考資料</p>
+<ol>
+<li><a href="https://dandalf.tistory.com/112?category=996488">코드서버에서 코파일럿 사용하기</a></li>
+</ol>
 ]]></content>
       <tags>
         <tag>Github</tag>
