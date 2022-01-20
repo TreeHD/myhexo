@@ -187,17 +187,11 @@
 <p>沒辦法登入Github意味著…我們沒辦使用作弊器-Github Copilot..<br>連要直接將專案推上Github都會有困難,甚至不能使用</p>
 <p>這時候..我上網找了一下資訊<br>發現大家都有Code-server無法授權登入Github的狀況,並且有人提了解決的辦法<br><img src="https://cdn.jsdelivr.net/gh/TreeHD/myhexo@image/20220120212225.png"><br>首先,點擊登入Github的按鈕<br>並將打開的網址複製下來，例如</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://vscode-auth.github.com/authorize/?callbackUri=https://****.devcallback%253Fvscode-requestId%253Dd60a96c7-1740-4b66-8dd3-703516fd338b%2526vscode-scheme%253Dcode-oss%2526vscode-authority%253Dvscodegithub-authentication%2526vscode-path%253D%25252Fdid-authenticate&amp;scope=read:user&amp;state=d3d5cef3-e647-4a9d-a17d-226031610c66&amp;responseType=code&amp;authServer=https://github.com</span><br></pre></td></tr></table></figure>
-<p>這時,我們將state後面的 <code>d3d5cef3-e647-4a9d-a17d-226031610c66</code> 複製起來,<br>修改成```link<br><a href="https://vscode-auth.github.com/authorize/?callbackUri=vscode://vscode.github-authentication/did-authenticate&amp;scope=repo&amp;state=d3d5cef3-e647-4a9d-a17d-226031610c66&amp;responseType=code">https://vscode-auth.github.com/authorize/?callbackUri=vscode://vscode.github-authentication/did-authenticate&amp;scope=repo&amp;state=d3d5cef3-e647-4a9d-a17d-226031610c66&amp;responseType=code</a></p>
-<pre><code>然後打開瀏覽器,將修改完成的網址貼上瀏覽器,即可正常授權
-
-![](https://cdn.jsdelivr.net/gh/TreeHD/myhexo@image/20220120213613.png)
-接下來將Your authorization token中的文字整串複製到
-![](https://cdn.jsdelivr.net/gh/TreeHD/myhexo@image/20220120213334.png)
-![](https://cdn.jsdelivr.net/gh/TreeHD/myhexo@image/20220120213205.png)
-完成!
-
-接下來,記得重新登入一次Code-Server,確保所有東西正常運作(有時Copilot的接受條款不一定會跑出來,需要重新登入code-server即可)
-</code></pre>
+<p>這時,我們將state後面的 <code>d3d5cef3-e647-4a9d-a17d-226031610c66</code> 複製起來,<br>修改成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://vscode-auth.github.com/authorize/?callbackUri=vscode://vscode.github-authentication/did-authenticate&amp;scope=repo&amp;state=d3d5cef3-e647-4a9d-a17d-226031610c66&amp;responseType=code</span><br></pre></td></tr></table></figure>
+<p>然後打開瀏覽器,將修改完成的網址貼上瀏覽器,即可正常授權</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TreeHD/myhexo@image/20220120213613.png"><br>接下來將Your authorization token中的文字整串複製到<br><img src="https://cdn.jsdelivr.net/gh/TreeHD/myhexo@image/20220120213334.png"><br><img src="https://cdn.jsdelivr.net/gh/TreeHD/myhexo@image/20220120213205.png"><br>完成!</p>
+<p>接下來,記得重新登入一次Code-Server,確保所有東西正常運作(有時Copilot的接受條款不一定會跑出來,需要重新登入code-server即可)</p>
 ]]></content>
       <tags>
         <tag>Github</tag>
